@@ -46,3 +46,29 @@ cmake --build .
 
 ```<server_port>``` — порт сервера.
 
+## Срабатывание
+```bash
+✅ OK: 58/96/71/62*19/82
+✅ OK: 79-77+29/67*35-27 52+46/12+57/67/53 80+52*95-8*35-64
+✅ OK: 6+80+80*21*16+3 98+37+73*49/33*51
+
+Process finished with exit code 0
+```
+
+## Неверное срабатывание
+```bash
+❌ Incorrect
+Sent:     24/75*16*59*91+8
+Expected: 27497.3 
+Received: 24.000000 
+❌ Incorrect
+Sent:     69/91-93/61*44+4 47+16-17+77*36+18
+Expected: -62.3237 2836 
+Received: -8.241758 
+❌ Incorrect
+Sent:     44+45+97-28*26*2 80+55/71*54+51/23 34/52/80+9*53+5
+Expected: -1270 124.048 482.008 
+Received: 186.000000 
+
+Process finished with exit code 0
+```
